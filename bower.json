@@ -1,0 +1,14 @@
+{
+  "name": "Webapplication",
+  "version": "0.0.1",
+  "authors": [
+    "Thomas Filius <thomas@nsit.nl>"
+  ],
+  "description": "Description of webapplication",
+  "license": "licence",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap-sass-official": "~3.3.5",
+    "fontawesome": "~4.3.0"
+  }
+}
