@@ -23,8 +23,12 @@ elixir(function (mix) {
 	// Merge vendor scripts
 	mix.scripts([
 		paths.jquery    + '/dist/jquery.js',
-		paths.bootstrap + '/assets/javascripts/bootstrap.js',
+		paths.bootstrap + '/assets/javascripts/bootstrap.js'
 	], 'public/js/vendor.js', __dirname + '/');
+
+	mix.scripts([
+		'assets/js/*'
+	], 'public/js/app.js', __dirname + '/resources/');
 
 	// Copying fonts
 	mix.copy(paths.bootstrap   + '/assets/fonts/bootstrap/**',  'public/fonts')
