@@ -11,6 +11,7 @@
 - `composer install && npm install && bower install`
 - Add <b>.env</b> file
 - `php artisan key:generate`
+- Directories `storage` and `bootstrap/cache` should be writable for the webserver
 
 ----------------------------------
 
