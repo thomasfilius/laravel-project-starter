@@ -11,6 +11,8 @@ A bootstrap for Laravel 5.1 projects
 | [jQuery](http://jquery.com) | ~2.1.4 |
 | [Twitter's Bootstrap](http://getbootstrap.com) | ~3.3.5
 | [Font Awesome](http://fontawesome.io/) | ~4.3.0
+| [Laravel IDE helper](https://github.com/barryvdh/laravel-ide-helper) | ^2.0
+| [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) | ^2.0
 
 ### Installation
 - Get source `https://github.com/thomasfilius/laravel-project-starter/archive/master.zip`
@@ -18,6 +20,3 @@ A bootstrap for Laravel 5.1 projects
 - Add <b>.env</b> file
 - `php artisan key:generate`
 - Directories `storage` and `bootstrap/cache` should be writable for the webserver
-
-### Credits
-- Dutch translations files from [Fred Delrieu](https://github.com/caouecs)
