@@ -1,32 +1,23 @@
 ## Project Starter for Laravel 5.1
 
-### Features
-- Sass
-- jQuery
-- Bootstrap
-- Font-Awesome
+A bootstrap for Laravel 5.1 projects
+
+| Features | Version |  |
+|----------|---------|---------------|
+| [Laravel Framework](http://laravel.com) | 5.1.* | [docs](http://laravel.com/docs)
+| Dutch translation files | | [source](https://github.com/caouecs/Laravel-lang)
+| [Bower](http://bower.io/) |
+| [Sass](http://sass-lang.com/) |
+| [jQuery](http://jquery.com) | ~2.1.4 |
+| [Twitter's Bootstrap](http://getbootstrap.com) | ~3.3.5
+| [Font Awesome](http://fontawesome.io/) | ~4.3.0
 
 ### Installation
-- `git clone https://github.com/thomasfilius/laravel-project-starter.git {{project-name}}`
+- Get source `https://github.com/thomasfilius/laravel-project-starter/archive/master.zip`
 - `composer install && npm install && bower install`
 - Add <b>.env</b> file
 - `php artisan key:generate`
 - Directories `storage` and `bootstrap/cache` should be writable for the webserver
 
-----------------------------------
-
-#### Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-#### Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-#### Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-##### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+### Credits
+- Dutch translations files from [Fred Delrieu](https://github.com/caouecs)
